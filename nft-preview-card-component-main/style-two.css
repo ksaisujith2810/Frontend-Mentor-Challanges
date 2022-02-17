@@ -1,0 +1,75 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  background-color: #0d192b;
+}
+
+.card {
+  border-radius: 1rem;
+  background-color: #14253d;
+}
+
+.card .cube-one {
+  border-radius: 10px;
+}
+
+.card-body .one {
+  font-weight: 600;
+  color: white;
+}
+
+.card-body .one:hover {
+  color: #00fff7;
+}
+
+.card-body .two {
+  font-weight: 300;
+  color: #8bacda;
+  font-size: 15px;
+}
+
+.card-body .three {
+  color: #00fff7;
+}
+
+.card-body .four {
+  color: #8bacda;
+}
+
+.card-body .five {
+  width: 10px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.card-body .six {
+  width: 10px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.seven {
+  background-color: #2f415b;
+}
+
+.eight {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.nine {
+  color: #8bacda;
+}
+
+.ten {
+  color: white;
+}
+
+.ten:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=style-two.css.map */

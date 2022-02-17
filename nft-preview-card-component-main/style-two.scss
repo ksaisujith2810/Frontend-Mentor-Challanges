@@ -1,0 +1,83 @@
+// primary colors
+$SoftBlue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+// neutral colours
+$mainBG: hsl(217, 54%, 11%);
+$cardBG: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color: $mainBG;
+}
+
+.card {
+    border-radius: 1rem;
+    background-color: $cardBG;
+
+    .cube-one {
+        border-radius: 10px;
+    }
+}
+
+.card-body {
+    .one {
+        font-weight: 600;
+        color: $White;
+
+        &:hover {
+            color: $Cyan;
+        }
+    }
+
+    .two {
+        font-weight: 300;
+        color: $SoftBlue;
+        font-size: 15px;
+    }
+
+    .three {
+        color: $Cyan;
+    }
+
+    .four {
+        color: $SoftBlue;
+    }
+
+    .five {
+        width: 10px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .six {
+        width: 10px;
+        height: 20px;
+        margin-right: 10px;
+    }
+}
+
+.seven {
+    background-color: $line;
+}
+
+.eight {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nine {
+    color: $SoftBlue;
+}
+
+.ten {
+    color: $White;
+    &:hover{
+        color: $Cyan;
+    }
+}
