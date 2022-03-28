@@ -1,0 +1,60 @@
+//  Primary
+$DarkCyan: hsl(185, 75%, 39%);
+$VeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+$DarkGrayIshBlue: hsl(227, 10%, 46%);
+
+// Neutral
+$DarkGray: hsl(0, 0%, 59%);
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: $DarkCyan;
+    background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-top.svg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+    margin-top: 10rem;
+
+    .card {
+        border-radius: 15px;
+
+        .one {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .two {
+            overflow: hidden;
+            // margin : top right bottom left
+            margin: -100px auto -30px auto;
+            width: 100px;
+            height: 100px;
+            // border:size style color
+            border: 5px solid white;
+        }
+
+        .three,
+        .four {
+            color: $DarkGray;
+        }
+
+        .five {
+            font-weight: 700;
+            color: $VeryDarkDesaturatedBlue;
+        }
+
+        .six {
+            color: $DarkGray;
+            margin-top: 0px;
+        }
+
+        h6{
+            color: $DarkGray;
+        }
+    }
+}

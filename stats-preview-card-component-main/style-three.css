@@ -1,0 +1,54 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #090b1a;
+}
+
+.container {
+  margin: 8rem 0rem 5rem 0rem;
+}
+
+.container .seven {
+  background-color: #1b1938;
+  height: 400px;
+}
+
+.container .seven .one {
+  font-weight: 700;
+  color: white;
+  font-size: 38px;
+}
+
+.container .seven .one .two {
+  color: #aa5cdb;
+}
+
+.container .seven .three {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+}
+
+.container .four {
+  font-weight: 700;
+  color: white;
+}
+
+.container h6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.container .six {
+  margin-left: -1.5rem;
+}
+
+.container .overlay {
+  background: -webkit-gradient(linear, #aa5cdb, );
+  background: linear-gradient(to #aa5cdb);
+  position: absolute;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style-three.css.map */

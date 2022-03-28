@@ -1,0 +1,131 @@
+//  Colors
+
+// Primary
+$VeryDarkMagenta: hsl(300, 43%, 22%);
+$SoftPink: hsl(333, 80%, 67%);
+// Neutral
+$DarkGrayishMagenta: hsl(303, 10%, 53%);
+$LightGrayishMagenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    background: url(./images/bg-pattern-top-desktop.svg) left top no-repeat, url(./images/bg-pattern-bottom-desktop.svg) right bottom repeat;
+}
+
+.box-one {
+    margin-top: 5rem;
+
+    .second {
+        color: $VeryDarkMagenta;
+        font-weight: 700;
+    }
+
+    .third {
+        color: $DarkGrayishMagenta;
+        font-weight: 400;
+    }
+
+    // col-2
+    .one,
+    .two,
+    .three {
+        background-color: $LightGrayishMagenta;
+        padding-left: 15px;
+        margin-top: 25px;
+        width: 400px;
+        border-radius: 10px;
+
+        .one-one,
+        .two-one,
+        .three-one,
+        .one-two,
+        .two-two,
+        .three-two {
+            padding-top: 6px;
+        }
+
+        .one-two,
+        .two-two,
+        .three-two {
+            margin-left: 25px;
+            color: $VeryDarkMagenta;
+            font-weight: 500;
+        }
+    }
+
+    .two {
+        margin-left: 2.5rem;
+    }
+
+    .three {
+        margin-left: 5rem;
+    }
+}
+
+.box-two {
+    margin-top: 50px;
+
+    .card-one,
+    .card-two,
+    .card-three {
+        background-color: $VeryDarkMagenta;
+        padding: 15px 25px 15px 20px;
+        border-radius: 10px;
+        width: 330px;
+        margin-left: 2rem;
+
+        .colton {
+            width: 50px;
+        }
+    }
+
+    .card-one {
+        margin-bottom: 5rem;
+    }
+
+    .card-two {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .card-three {
+        margin-top: 5rem;
+    }
+
+    .seventh,
+    .eight,
+    .eighth {
+        font-size: small;
+    }
+
+    .eight,
+    .eighth {
+        font-weight: 400;
+    }
+
+    .seventh,
+    .eight {
+        color: $LightGrayishMagenta;
+    }
+
+    .seventh,
+    .eighth {
+        margin-left: 1.5rem;
+    }
+
+    .seventh {
+        font-weight: 700;
+    }
+
+    .eighth {
+        color: $SoftPink;
+    }
+
+    .eight {
+        margin-top: 15px;
+    }
+}

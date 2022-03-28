@@ -1,0 +1,142 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+  background: url(./images/bg-pattern-top-desktop.svg) left top no-repeat, url(./images/bg-pattern-bottom-desktop.svg) right bottom repeat;
+}
+
+.box-one {
+  margin-top: 5rem;
+}
+
+.box-one .second {
+  color: #502050;
+  font-weight: 700;
+}
+
+.box-one .third {
+  color: #937b92;
+  font-weight: 400;
+}
+
+.box-one .one,
+.box-one .two,
+.box-one .three {
+  background-color: #f7f2f7;
+  padding-left: 15px;
+  margin-top: 25px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.box-one .one .one-one,
+.box-one .one .two-one,
+.box-one .one .three-one,
+.box-one .one .one-two,
+.box-one .one .two-two,
+.box-one .one .three-two,
+.box-one .two .one-one,
+.box-one .two .two-one,
+.box-one .two .three-one,
+.box-one .two .one-two,
+.box-one .two .two-two,
+.box-one .two .three-two,
+.box-one .three .one-one,
+.box-one .three .two-one,
+.box-one .three .three-one,
+.box-one .three .one-two,
+.box-one .three .two-two,
+.box-one .three .three-two {
+  padding-top: 6px;
+}
+
+.box-one .one .one-two,
+.box-one .one .two-two,
+.box-one .one .three-two,
+.box-one .two .one-two,
+.box-one .two .two-two,
+.box-one .two .three-two,
+.box-one .three .one-two,
+.box-one .three .two-two,
+.box-one .three .three-two {
+  margin-left: 25px;
+  color: #502050;
+  font-weight: 500;
+}
+
+.box-one .two {
+  margin-left: 2.5rem;
+}
+
+.box-one .three {
+  margin-left: 5rem;
+}
+
+.box-two {
+  margin-top: 50px;
+}
+
+.box-two .card-one,
+.box-two .card-two,
+.box-two .card-three {
+  background-color: #502050;
+  padding: 15px 25px 15px 20px;
+  border-radius: 10px;
+  width: 330px;
+  margin-left: 2rem;
+}
+
+.box-two .card-one .colton,
+.box-two .card-two .colton,
+.box-two .card-three .colton {
+  width: 50px;
+}
+
+.box-two .card-one {
+  margin-bottom: 5rem;
+}
+
+.box-two .card-two {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.box-two .card-three {
+  margin-top: 5rem;
+}
+
+.box-two .seventh,
+.box-two .eight,
+.box-two .eighth {
+  font-size: small;
+}
+
+.box-two .eight,
+.box-two .eighth {
+  font-weight: 400;
+}
+
+.box-two .seventh,
+.box-two .eight {
+  color: #f7f2f7;
+}
+
+.box-two .seventh,
+.box-two .eighth {
+  margin-left: 1.5rem;
+}
+
+.box-two .seventh {
+  font-weight: 700;
+}
+
+.box-two .eighth {
+  color: #ee68a4;
+}
+
+.box-two .eight {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style-six.css.map */

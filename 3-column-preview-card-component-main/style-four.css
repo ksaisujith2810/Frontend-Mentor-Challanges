@@ -1,0 +1,125 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.card {
+  width: 250px;
+  height: 450px;
+}
+
+.one {
+  background-color: #e38826;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 300px;
+}
+
+.one .two {
+  width: 90px;
+}
+
+.one .three {
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.one .four {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.one .btn1 {
+  color: #e38826;
+}
+
+.one .btn1:hover {
+  background-color: #e38826;
+  color: #f2f2f2;
+  border: 2px solid white;
+}
+
+.five {
+  background-color: #006970;
+  width: 300px;
+}
+
+.five .six {
+  width: 90px;
+}
+
+.five .seven {
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.five .eight {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.five .btn2 {
+  color: #006970;
+}
+
+.five .btn2:hover {
+  background-color: #006970;
+  color: #f2f2f2;
+  border: 2px solid white;
+}
+
+.nine {
+  background-color: #004241;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 300px;
+}
+
+.nine .ten {
+  width: 90px;
+}
+
+.nine .eleven {
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.nine .twelve {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.nine .btn3 {
+  color: #004241;
+}
+
+.nine .btn3:hover {
+  background-color: #004241;
+  color: #f2f2f2;
+  border: 2px solid white;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  border-radius: 22px;
+  font-weight: 400;
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 8px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  width: 140px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style-four.css.map */

@@ -1,0 +1,74 @@
+// Primary
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+// Neutral
+$VeryDarkBlue: hsl(234, 12%, 34%);
+$GrayishBlue: hsl(229, 6%, 66%);
+$VeryLightGray: hsl(0, 0%, 98%);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: $VeryLightGray;
+}
+
+.box-1 {
+    margin-top: 2rem;
+
+    .one,
+    .three {
+        color: $GrayishBlue;
+        font-weight: 400;
+    }
+
+    .two {
+        font-weight: 600;
+        color: $VeryDarkBlue;
+    }
+}
+
+.sub {
+    margin-top: 2rem;
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        width: 350px;
+        border-radius: 5px;
+        box-shadow: 0 6px 12px 0 $GrayishBlue;
+    }
+
+    .first {
+        border-top: 5px solid $Cyan;
+    }
+
+    .second {
+        border-top: 5px solid $Red;
+    }
+
+    .third {
+        border-top: 5px solid $Orange;
+        margin-top: 20px;
+    }
+
+    .fourth {
+        border-top: 5px solid $Blue;
+    }
+
+    .four {
+        color: $VeryDarkBlue;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+
+    .five {
+        color: $GrayishBlue;
+        padding-left: 20px;
+    }
+}
